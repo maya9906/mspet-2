@@ -1,0 +1,136 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* Styling for elements with 'nav' */
+nav{
+    border-bottom: 10px solid gray;;
+    height: 150px;
+    margin:0px;
+    overflow: hidden;
+}
+
+.logoPhoto{
+    float:left;
+    width: 30%;
+    height: 150px;
+}
+
+.brandName{
+    width:40%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    float:left;
+    overflow: hidden;
+}
+
+.btns{
+    float: left;
+    width:30%;
+    text-align: right; 
+    padding-top: 90px;  
+}
+
+.btn1, .btn2{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #eb6100;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+
+/* Styling for elements with 'container' */
+.lead-form{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px;
+}
+
+form{
+    width: 460px;
+    margin:0 auto;
+}
+
+.item{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.label{
+    float: left;
+    margin-right: 20px;
+    width: 135px;
+    border-left: solid 3px #e0505d;
+    padding-left: 10px;
+    
+}
+
+.inputs{
+    float: right;
+    width: 300px;
+  
+}
+
+input[type="text"],input[type="email"],input[type="number"],input[type=""]{
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+textarea{
+    border: solid 1px #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    height: 160px;
+    font-size: 15px;
+}
+
+.btn-area{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+input[type="submit"]{
+    background-color: #e0505c;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+input[type="reset"]{
+    background-color: #aaa;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 5px;  
+}
+
+/* Styling for elements with 'footer'*/
+footer{
+    height: 150px;
+    border-top: 10px solid grey;
+    text-align: right;
+}
