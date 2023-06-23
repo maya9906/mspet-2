@@ -1,0 +1,115 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* Styling for elements with 'nav' - Top*/
+nav{
+    border-bottom: 10px solid gray;;
+    height: 150px;
+    margin:0px;
+    overflow: hidden;
+}
+
+.logoPhoto{
+    float:left;
+    width: 30%;
+    height: 150px;
+}
+
+.brandName{
+    width:40%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    float:left;
+    overflow: hidden;
+}
+
+.btns{
+    float: left;
+    width:30%;
+    text-align: right; 
+    padding-top: 90px;  
+}
+
+.btn1, .btn2{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #eb6100;
+}
+
+
+
+/* Styling elements with the 'container'-Middle */
+.container{
+    text-align: center;
+    overflow: hidden;
+    width:1200px;
+    margin: 20px auto;
+}
+
+.menu{
+    float:left;
+    width:200px;
+    margin-top:300px;
+    background-color: antiquewhite;
+    border-radius: 10%;  
+    margin-right:60px;  
+}
+
+li {
+    margin-top:4px;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.cats h1{
+    border-left: solid 10px palevioletred;
+}
+
+.dogs h1{
+    border-left: solid 10px coral;
+
+}
+
+.hamsters h1{
+    border-left: solid 10px chocolate;
+}
+
+.content{
+    float:left;
+    overflow: hidden;
+    width:750px;
+    margin:0 auto;
+}
+
+.petPhoto{
+    display: inline-block;
+    width:200px;
+    height:200px;
+    border-radius: 70%;
+    overflow: hidden;
+    background-color: beige;
+    margin: 20px;
+}
+
+/* Styling elements with the 'footer'-Bottom */
+footer{
+    height: 150px;
+    border-top: 10px solid grey;
+    text-align: right;
+}

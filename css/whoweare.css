@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+/* Styling for elements with 'nav' - Top*/
+nav{
+    border-bottom: 10px solid gray;;
+    height: 150px;
+    margin:0px;
+    overflow: hidden;
+}
+
+.logoPhoto{
+    float:left;
+    width: 30%;
+    height: 150px;
+}
+
+.brandName{
+    width:40%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    float:left;
+    overflow: hidden;
+}
+
+
+.btns{
+    float: left;
+    width:30%;
+    text-align: right; 
+    padding-top: 90px;  
+}
+
+.btn1, .btn2{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  display: inline-block;
+  padding: 16px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: #eb6100;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+
+
+.img {
+    text-align: center;
+    margin-top: 100px
+}
+   
+.comment{
+    text-align: center;
+    padding:30px 150px;
+}
+
+.aboutus{
+    font-size: 45px;
+    border-bottom: 3px solid black;
+}
+
+.img2{
+    text-align: center;
+}
+
+.explain{
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+footer{
+    height: 150px;
+    border-top: 10px solid grey;
+    text-align: right;
+}
