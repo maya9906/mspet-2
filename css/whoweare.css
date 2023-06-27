@@ -4,86 +4,144 @@
 }
 
 
-/* Styling for elements with 'nav' - Top*/
-nav{
-    border-bottom: 10px solid gray;;
-    height: 150px;
-    margin:0px;
-    overflow: hidden;
+/* ------------nav------------ */
+.navcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(176, 176, 176);
 }
 
-.logoPhoto{
-    float:left;
-    width: 30%;
-    height: 150px;
+.navlogo{
+    width: 100px;
 }
 
-.brandName{
-    width:40%;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 100px;
-    float:left;
-    overflow: hidden;
+.navcontainer h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
 }
 
 
-.btns{
-    float: left;
-    width:30%;
-    text-align: right; 
-    padding-top: 90px;  
+.navcontainer2{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
 }
 
-.btn1, .btn2{
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.1;
-  display: inline-block;
-  padding: 16px;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  border-radius: 0.5rem;
-  color: #fff;
-  background-color: #eb6100;
+.navcontainer2-item{
+    background-color: rgb(196, 80, 13);
+    width: 60px;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a{
-    color: black;
-    text-decoration-line: none;
+.navcontainer2-item:visited{
+    color: white;
 }
 
-
-.img {
-    text-align: center;
-    margin-top: 100px
+.navcontainer2-item:hover{
+    color: rgb(175, 175, 175);
 }
-   
+
+.hamburger{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+@media (max-width:750px){
+    .navlogo{
+        width: 70px;
+    }
+
+    .navcontainer h1{
+        font-size: 1.5rem;
+    }
+    .navcontainer2{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+}
+/* ------------who we are css------------ */
+.introduction{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.intro-img-item{
+    margin: 10px auto;
+}
+.intro-img-item img {
+    width: 100%;
+    max-width: 690px;
+}
+ 
 .comment{
     text-align: center;
     padding:30px 150px;
 }
 
-.aboutus{
-    font-size: 45px;
-    border-bottom: 3px solid black;
+.comment h1{
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(125, 125, 125);
+    margin-bottom: ;
 }
 
-.img2{
-    text-align: center;
-}
-
-.explain{
+.comment p{
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 10px;
+    padding: 10px;
 }
+
+@media (max-width:750px){
+
+    .intro-img-item{
+        margin: 0px auto;
+    }
+    
+    .intro-img-item img{
+        width: 100%;
+    }
+    .aboutus{
+        font-size: 25px;
+    }
+    .comment{
+        margin-top: 10px 10px;
+        padding: 0px;
+    }
+
+    .comment h1{
+        font-size: 1.5rem;
+        border-bottom: 2px solid rgb(125, 125, 125);
+        
+    }
+    .comment p{
+        font-size: 0.9rem;
+    }
+}
+
+/* -------------------footer----------------------*/
 
 footer{
     height: 150px;
-    border-top: 10px solid grey;
+    border-top: 2px solid rgb(176, 176, 176);
     text-align: right;
+    padding-right: 100px;
 }
+
+@media (max-width:750px){
+    footer{
+        height: 90px;
+        padding-right: 0px;
+    }
+}
+
