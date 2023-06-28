@@ -8,141 +8,83 @@
     <link rel="stylesheet" href="css/style.css"></link>
 </head>
 <body>
-    <nav>
-        <div class="logoPhoto">
-            <a href="index.html">
-                <img src="imgs/logo.png" width="150px">
-            </a>
-        </div>
-
-        <div class="brandName" >
-            <h1><a href="index.html">MSPET</a></h1>
-        </div>
-
-        <div class="btns">
-            <a href="pages/whoweare.html" class="btn1">WHO WE ARE</button></a>
-            <a href="pages/contact.html" class="btn2">CONTACT</button></a>
+    <nav> 
+        <div class="navcontainer">
+            <a href="../index.html"><img src="imgs/logo.png" class="navlogo" alt="logo"></a>
+            <h1>MSPET</h1>
+            <div class="navcontainer2">
+                <div><a href="pages/whoweare.html" class="navcontainer2-item">WHO WE ARE</a></div>
+                <div><a href="pages/contact.html" class="navcontainer2-item">CONTACT</a></div>
+            </div>
+            <div class="hamburger">
+                <img src="../imgs/cat3.jpeg">
+            </div>
         </div>
     </nav>
 
     <section class="container">
-        <section class="menu">
-            <ol>
-                <li style="color:palevioletred;">CAT</li>
-                    <ul>
-                        <li><a href="pages/cat1.html">Persian</a></li>
-                        <li><a href="pages/cat2.html">Egyptian Mau</a></li>
-                        <li><a href="pages/cat3.html">Sphinx</a></li>
-                        <li><a href="pages/cat4.html">Russian Blue</a></li>
-                        <li><a href="pages/cat5.html">American Bobtail</a></li>
-                        <li><a href="pages/cat6.html">Exotic</a></li>
-                    </ul>
-                <li style="color:coral;">DOG</li>
-                    <ul>
-                        <li><a href="pages/dog1.html">Golden Retriever</a></li>
-                        <li><a href="pages/dog2.html">Corgi</a></li>
-                        <li><a href="pages/dog3.html">Pug</a></li>
-                        <li><a href="pages/dog4.html">Siberian Husky</a></li>
-                        <li><a href="pages/dog5.html">Shiba dog</a></li>
-                        <li><a href="pages/dog6.html">Poodle</a></li>
-                    </ul>
-                <li style="color:chocolate;">HAMSTER</li>
-                    <ul>
-                        <li><a href="pages/hamster1.html">Golden Hamster</a></li>
-                        <li><a href="pages/hamster2.html">Winter White Hamster</a></li>
-                        <li><a href="pages/hamster3.html">Roborovski Hamster</a></li>
-                    </ul>
-            </ol>
+        <input id="cat-check" type="radio" name="type"/>
+        <label for="cat-check">CAT</label>
+        <input id="dog-check" type="radio" name="type"/>
+        <label for="dog-check">DOG</label>
+        <input id="hamster-check" type="radio" name="type"/>
+        <label for="hamster-check">HAMSTER</label>
+        <ul class="cat-type">
+            <li><a href="pages/cat1.html">Persian</a></li>
+            <li><a href="pages/cat2.html">Egyptian Mau</a></li>
+            <li><a href="pages/cat3.html">Sphinx</a></li>
+            <li><a href="pages/cat4.html">Russian Blue</a></li>
+            <li><a href="pages/cat5.html">American Bobtail</a></li>
+            <li><a href="pages/cat6.html">Exotic</a></li>
+        </ul>
+        <ul class="dog-type">
+            <li><a href="pages/dog1.html">Golden Retriever</a></li>
+            <li><a href="pages/dog2.html">Corgi</a></li>
+            <li><a href="pages/dog3.html">Pug</a></li>
+            <li><a href="pages/dog4.html">Siberian Husky</a></li>
+            <li><a href="pages/dog5.html">Shiba dog</a></li>
+            <li><a href="pages/dog6.html">Poodle</a></li>
+        </ul>
+        <ul class="hamster-type">
+            <li><a href="pages/hamster1.html">Golden Hamster</a></li>
+            <li><a href="pages/hamster2.html">Winter White Hamster</a></li>
+            <li><a href="pages/hamster3.html">Roborovski Hamster</a></li>
+        </ul>
+        <br>
+        <br>
+        <div class="banner">
+            <p> -Hi, I am your <sapn style="font-weight:bold; font-size:5.5vmin;">PET</sapn> and<br>
+            I need <sapn style="font-weight:bold; font-size:5.5vmin;">someone to take care of me!</sapn></p>
+        </div>
+        
+        <img class="main-photo" src="imgs/main-photo.jpg">
+        <section id="cats" class="animals">
+            <h1 style="color: palevioletred;">CAT</h1>
+            <div class="petPhoto"><a href='pages/cat1.html'><img src="imgs/cat1.jpeg" ></a></div>
+            <div class="petPhoto"><a href='pages/cat2.html'><img src="imgs/cat2.jpeg" ></a></div>
+            <div class="petPhoto"><a href='pages/cat3.html'><img src="imgs/cat3.jpeg" ></a></div>
+            <div class="petPhoto"><a href='pages/cat4.html'><img src="imgs/cat4.jpeg" ></a></div>
+            <div class="petPhoto"><a href='pages/cat5.html'><img src="imgs/cat5.jpeg" ></a></div>
+            <div class="petPhoto"><a href='pages/cat6.html'><img src="imgs/cat6.jpeg" ></a></div>
         </section>
-
-        <section class="content">
-            <section class="cats">
-                <h1 style="color: palevioletred;">CAT</h1>
-                <a href="pages/cat1.html">
-                    <div class="petPhoto">
-                        <img src="imgs/cat1.jpeg" width="280">
-                    </div>
-                </a>
-                <a href="pages/cat2.html">
-                    <div class="petPhoto">
-                        <img src="imgs/cat2.jpeg" width="310">
-                    </div>
-                </a>
-                <a href="pages/cat3.html">
-                    <div class="petPhoto">
-                        <img src="imgs/cat3.jpeg" width="310">
-                    </div>
-                </a>
-                <a href="pages/cat4.html">
-                    <div class="petPhoto">
-                        <img src="imgs/cat4.jpeg" width="310">
-                    </div>
-                </a>
-                <a href="pages/cat5.html">
-                    <div class="petPhoto">
-                        <img src="imgs/cat5.jpeg" width="310">
-                    </div>
-                </a>
-                <a href="pages/cat6.html">
-                    <div class="petPhoto">
-                        <img src="imgs/cat6.jpeg" width="310">
-                    </div>
-                </a>
-            </section>
             
-            <section class="dogs">
-                <h1 style="color:coral">DOG</h1>
-                <a href="pages/dog1.html">
-                    <div class="petPhoto">
-                        <img src="imgs/dog1.png">
-                    </div>
-                </a>    
-                <a href="pages/dog2.html">
-                    <div class="petPhoto">
-                        <img src="imgs/dog2.jpg" width="310px">
-                    </div>
-                </a>
-                <a href="pages/dog3.html">
-                    <div class="petPhoto">
-                        <img src="imgs/dog3.jpg" width="278px">
-                    </div>
-                </a>
-                <a href="pages/dog4.html">
-                    <div class="petPhoto">
-                        <img src="imgs/dog4.jpg" width="300px">
-                    </div>
-                </a>
-                <a href="pages/dog5.html">
-                    <div class="petPhoto">
-                        <img src="imgs/dog5.jpg" width="300px">
-                    </div>
-                </a>
-                <a href="pages/dog6.html">
-                    <div class="petPhoto">
-                        <img src="imgs/dog6.jpg" width="300">
-                    </div>
-                </a>
-            </section>
-
-            <section class="hamsters">
-                <h1 style="color: chocolate;">HAMSTER</h1>
-                <a href="pages/hamster1.html">
-                    <div class="petPhoto">
-                        <img src="imgs/hamster1.jpeg" width="200">
-                    </div>
-                </a>
-                <a href="pages/hamster2.html">
-                    <div class="petPhoto">
-                        <img src="imgs/hamster2.jpeg" width="220">
-                    </div>
-                </a>
-                <a href="pages/hamster3.html">
-                    <div class="petPhoto">
-                        <img src="imgs/hamster3.jpeg" width="260">
-                    </div>
-                </a>
-            </section>
+        <section class="animals dogs">
+            <h1 style="color:coral">DOG</h1>
+            <div class="petPhoto"><a href='pages/dog1.html'><img src="imgs/dog1.png" ></a></div>    
+            <div class="petPhoto"><a href='pages/dog2.html'><img src="imgs/dog2.jpg" ></a></div>
+            <div class="petPhoto"><a href='pages/dog3.html'><img src="imgs/dog3.jpg" ></a></div>
+            <div class="petPhoto"><a href='pages/dog4.html'><img src="imgs/dog4.jpg" ></a></div>
+            <div class="petPhoto"><a href='pages/dog5.html'><img src="imgs/dog5.jpg" ></a></div>
+            <div class="petPhoto"><a href='pages/dog6.html'><img src="imgs/dog6.jpg" ></a></div>
         </section>
+
+        <section class="animals hamsters">
+            <h1 style="color: chocolate;">HAMSTER</h1>
+            <div class="petPhoto"><a href='pages/hamster1.html'><img src="imgs/hamster1.jpeg"></a></div>
+            <div class="petPhoto"><a href='pages/hamster2.html'><img src="imgs/hamster2.jpeg"></a></div>
+            <div class="petPhoto"><a href='pages/hamster3.html'><img src="imgs/hamster3.jpeg"></a></div>
+        </section>
+        
     </section>
 
     <footer>
