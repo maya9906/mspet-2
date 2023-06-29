@@ -10,17 +10,27 @@
 <body>
     <nav> 
         <div class="navcontainer">
-            <a href="../index.html"><img src="imgs/logo.png" class="navlogo" alt="logo"></a>
+            <a href="index.html"><img src="imgs/logo.png" class="navlogo" alt="logo"></a>
             <h1>MSPET</h1>
             <div class="navcontainer2">
                 <div><a href="pages/whoweare.html" class="navcontainer2-item">WHO WE ARE</a></div>
                 <div><a href="pages/contact.html" class="navcontainer2-item">CONTACT</a></div>
             </div>
-            <div class="hamburger">
-                <img src="../imgs/cat3.jpeg">
+            <div class="sp-link">
+                <input type="checkbox" id="hamburger-check" class="hamburger-hidden">
+                <label for="hamburger-check" class="hamburger-open"><span></span></label>
+                <div class="hamburger-content">
+                    <ul class="hamburger-link"> 
+                        <li class="sp-links" id="sp-link-1"><a href="index.html">HOME</a></li>
+                        <li class="sp-links" id="sp-link-2"><a href="pages/whoweare.html">WHO WE ARE</a></li>
+                        <li class="sp-links" id="sp-link-3"><a href="pages/contact.html">CONTACT</a></li>
+                    </ul>
+                    
+                </div>
             </div>
+
         </div>
-    </nav>
+    </nav>    
 
     <section class="container">
         <input id="cat-check" type="radio" name="type"/>
