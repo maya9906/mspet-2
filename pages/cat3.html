@@ -4,32 +4,39 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>cat3</title>
+        <title>cat1</title>
         <link rel="stylesheet" href="../css/cats.css"></link>
     </head>
     <body>
-        <nav>
-            <div class="logoPhoto">
-                <a href="../index.html">
-                    <img src="../imgs/logo.png" width="150px">
-                </a>
+        <nav> 
+            <div class="navcontainer">
+                <a href="../index.html"><img src="../imgs/logo.png" class="navlogo" alt="logo"></a>
+                <h1>MSPET</h1>
+                <div class="navcontainer2">
+                    <div><a href="whoweare.html" class="navcontainer2-item">WHO WE ARE</a></div>
+                    <div><a href="contact.html" class="navcontainer2-item">CONTACT</a></div>
+                </div>
+                <div class="sp-link">
+                    <input type="checkbox" id="hamburger-check" class="hamburger-hidden">
+                    <label for="hamburger-check" class="hamburger-open"><span></span></label>
+                    <div class="hamburger-content">
+                        <ul class="hamburger-link"> 
+                            <li class="sp-links" id="sp-link-1"><a href="../index.html">HOME</a></li>
+                            <li class="sp-links" id="sp-link-2"><a href="whoweare.html">WHO WE ARE</a></li>
+                            <li class="sp-links" id="sp-link-3"><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+    
             </div>
-
-            <div class="brandName" >
-                <h1><a href="../index.html">MSPET</a></h1>
-            </div>
-
-            <div class="btns">
-                <a href="whoweare.html" class="btn1">WHO WE ARE</button></a>
-                <a href="contact.html" class="btn2">CONTACT</button></a>
-            </div>
-        </nav>
+        </nav>    
 
         <section class="container">
-            <section class="image">
-                <img src="../imgs/cat3.jpeg" width="310">
-            </section>
-            <section class="content">
+            <div class="container-item-1">
+                <img src="../imgs/cat3.jpeg" class="image">
+            </div>
+            <div class="content">
                 <form>
                     <div class="item">
                         <label class="label">Name</label>
@@ -56,7 +63,7 @@
                         <p> This hairless cat is also known as a social pet. Not only does it get along well with other animals, it also has active characteristics, and you can often see them exploring their surroundings and chasing bugs and insects. Playing with toys, or climbing trees to show your athleticism and cleverness.</p>
                     </div>
                 </form>
-            </section>
+            </div>
         </section>
 
         <footer>

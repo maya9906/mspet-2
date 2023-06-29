@@ -4,31 +4,39 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>cat6</title>
+        <title>cat1</title>
         <link rel="stylesheet" href="../css/cats.css"></link>
     </head>
     <body>
-        <nav>
-            <div class="logoPhoto">
-                <a href="../index.html">
-                    <img src="../imgs/logo.png" width="150px">
-                </a>
+        <nav> 
+            <div class="navcontainer">
+                <a href="../index.html"><img src="../imgs/logo.png" class="navlogo" alt="logo"></a>
+                <h1>MSPET</h1>
+                <div class="navcontainer2">
+                    <div><a href="whoweare.html" class="navcontainer2-item">WHO WE ARE</a></div>
+                    <div><a href="contact.html" class="navcontainer2-item">CONTACT</a></div>
+                </div>
+                <div class="sp-link">
+                    <input type="checkbox" id="hamburger-check" class="hamburger-hidden">
+                    <label for="hamburger-check" class="hamburger-open"><span></span></label>
+                    <div class="hamburger-content">
+                        <ul class="hamburger-link"> 
+                            <li class="sp-links" id="sp-link-1"><a href="../index.html">HOME</a></li>
+                            <li class="sp-links" id="sp-link-2"><a href="whoweare.html">WHO WE ARE</a></li>
+                            <li class="sp-links" id="sp-link-3"><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+    
             </div>
-
-            <div class="brandName" >
-                <h1><a href="../index.html">MSPET</a></h1>
-            </div>
-
-            <div class="btns">
-                <a href="whoweare.html" class="btn1">WHO WE ARE</button></a>
-                <a href="contact.html" class="btn2">CONTACT</button></a>
-            </div>
-        </nav>
+        </nav>    
 
         <section class="container">
-            <section class="image">
-                <img src="../imgs/cat6.jpeg" width="310">                </section>
-            <section class="content">
+            <div class="container-item-1">
+                <img src="../imgs/cat6.jpeg" class="image">
+            </div>
+            <div class="content">
                 <form>
                     <div class="item">
                         <label class="label">Name</label>
@@ -52,10 +60,10 @@
             
                     <div class="item">
                         <label class="label">information</label>
-                        <p> Exotic is a breed of extreme appearance. The torso is short but has very thick, thick legs and a thick, short neck. The skeleton is heavy, but the tail is short and the ears are small. Overall, the nose and face are flat.</p>
+                        <p>Exotic is a breed of extreme appearance. The torso is short but has very thick, thick legs and a thick, short neck. The skeleton is heavy, but the tail is short and the ears are small. Overall, the nose and face are flat.</p>
                     </div>
                 </form>
-            </section>
+            </div>
         </section>
 
         <footer>

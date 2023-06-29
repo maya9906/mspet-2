@@ -4,32 +4,39 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>cat5</title>
+        <title>cat1</title>
         <link rel="stylesheet" href="../css/cats.css"></link>
     </head>
     <body>
-        <nav>
-            <div class="logoPhoto">
-                <a href="../index.html">
-                    <img src="../imgs/logo.png" width="150px">
-                </a>
+        <nav> 
+            <div class="navcontainer">
+                <a href="../index.html"><img src="../imgs/logo.png" class="navlogo" alt="logo"></a>
+                <h1>MSPET</h1>
+                <div class="navcontainer2">
+                    <div><a href="whoweare.html" class="navcontainer2-item">WHO WE ARE</a></div>
+                    <div><a href="contact.html" class="navcontainer2-item">CONTACT</a></div>
+                </div>
+                <div class="sp-link">
+                    <input type="checkbox" id="hamburger-check" class="hamburger-hidden">
+                    <label for="hamburger-check" class="hamburger-open"><span></span></label>
+                    <div class="hamburger-content">
+                        <ul class="hamburger-link"> 
+                            <li class="sp-links" id="sp-link-1"><a href="../index.html">HOME</a></li>
+                            <li class="sp-links" id="sp-link-2"><a href="whoweare.html">WHO WE ARE</a></li>
+                            <li class="sp-links" id="sp-link-3"><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+    
             </div>
-
-            <div class="brandName" >
-                <h1><a href="../index.html">MSPET</a></h1>
-            </div>
-
-            <div class="btns">
-                <a href="whoweare.html" class="btn1">WHO WE ARE</button></a>
-                <a href="contact.html" class="btn2">CONTACT</button></a>
-            </div>
-        </nav>
+        </nav>    
 
         <section class="container">
-            <section class="image">
-                <img src="../imgs/cat5.jpeg" width="310">               
-            </section>
-            <section class="content">
+            <div class="container-item-1">
+                <img src="../imgs/cat5.jpeg" class="image">
+            </div>
+            <div class="content">
                 <form>
                     <div class="item">
                         <label class="label">Name</label>
@@ -53,10 +60,10 @@
             
                     <div class="item">
                         <label class="label">information</label>
-                        <p> For a short-tailed cat, there are Manx cats in addition to American Bobtail. The characteristic of these cats is that their tails are short, so their hind legs are long and hard to get a sense of balance. Maybe that's why my whole body is hard and my back legs are especially reinforced.</p>
+                        <p>For a short-tailed cat, there are Manx cats in addition to American Bobtail. The characteristic of these cats is that their tails are short, so their hind legs are long and hard to get a sense of balance. Maybe that's why my whole body is hard and my back legs are especially reinforced.</p>
                     </div>
                 </form>
-            </section>
+            </div>
         </section>
 
         <footer>
