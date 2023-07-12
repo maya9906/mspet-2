@@ -50,18 +50,6 @@
     display: none;
 }
 
-.open, .close{
-    display: none;
-    width: 40px;
-    height: 40px;
-    margin-right: 30px;
-}
-
-#menu{
-    position:absolute;
-    right: -100px;
-}
-
 .sp-link{
     display: none;
 }
